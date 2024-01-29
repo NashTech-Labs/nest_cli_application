@@ -24,8 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework.
-Here is an example for creating command line applications using nestjs. With the help of nest-commander, we can create commands and pass require options and parameters using Decorators like @Command and @Option.
+Here is an example for creating command line applications using [Nest](https://github.com/nestjs/nest) framework.
+With the help of nest-commander, we can create commands and pass require options and parameters using Decorators like @Command and @Option.
 In this Expamle we have created a basic command which parse string and number.
 For more infor check nest-commander website <a href="https://nest-commander.jaymcdoniel.dev/en/introduction/intro/" target= "_blank"> here </a>.
 
@@ -40,6 +40,8 @@ $ npm install
 ```bash
 # To Run Command
 < npm run start -- commandName --optionName <optionValue> >
+
+# For Example
 $ npm run start -- basic --number <number> --string <string>
 
 ```
